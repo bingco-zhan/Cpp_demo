@@ -177,7 +177,8 @@ void init_wins(WINDOW **wins, int n)
 
 /* 把每个面板设置为 PANEL_DATA 结构 */
 void set_user_ptrs(PANEL **panels, int n)
-{ PANEL_DATA *ptrs;
+{ 
+    PANEL_DATA *ptrs;
     WINDOW *win;
     int x, y, w, h, i;
     char temp[80];
